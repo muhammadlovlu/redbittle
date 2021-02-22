@@ -11,43 +11,85 @@ h1, h2, div{
     background-repeat: no-repeat;
     background-size: cover ;    
     background-attachment: fixed;
-    height: 850px;
-    
+    height: 850px;  
 }
-
 .nav-item a{
     color: white !important;
     font-family: 'Oswald', sans-serif;
-    font-size: 20px;
-    letter-spacing: 1px;
-}
-.container{
- /* background-color: yellow ;
- opacity: 0.3; */
-
+    font-size: 18px;
+    letter-spacing: 1.5px;
 }
 .brand {
     font-family: 'Teko', sans-serif;
     color:white;
+    letter-spacing: 1px;
 }
-
+.dot{
+    color: red;
+}
 .highlight h2 {
     text-transform: capitalize;
-    background-color: black;
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
     text-align:center;
     color: white;
 }
-
 .highlight p{
-    font-family: 'Bebas Neue', cursive;;
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
-    background-color:blueviolet;
     font-size: 18px;
     color: white;
-
+    letter-spacing: 1px;
 }
+.feature {
+    border-radius: 20px !important; 
+}
+.card-body{
+    padding:5px;
+    height: 300px;
+    box-shadow: 10px 10px 10px -3px black;
+    border-radius: 20px;
+}
+.card-body span{
+    padding: 20px;
+    font-size: 50px;
+}
+.card-title {
+    padding: 10px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.card-text{
+    padding: 10px;
+}
+.card-text:before {
+    content: " ";
+    background: black;
+    position: absolute;
+    top:140px;
+    right: 0;
+    left: 25px;
+    height: 3px;
+    width: 30%; 
+  }
+  .service h5, .visual{
+    color:red;
+}
+  .service h2{
+    text-transform: capitalize;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    text-align:center;
+    letter-spacing: 2px;
+    color: black;
+  }
+  .service p{
+    font-family: 'Bebas Neue', cursive;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    letter-spacing: 1px;
+  }
 #main {
     position: relative;
     top :20px;
@@ -70,23 +112,25 @@ h1, h2, div{
     }
     .highlight h2 {
         text-transform: capitalize;
-        background-color: black;
         font-family: 'Oswald', sans-serif;
         font-size: 60px;
         text-align:center;
         color: white;
     }
-    }
-
-   
-   
-
     
-
-
-/*   Text code here */
-.highlight{
-    background-color:tomato ;
+.card{
+    position: relative;
+    top: -100px;
+   
+ 
 }
 
+    }
 
+/*   Text code here */
+
+
+.container{
+    /* background-color: yellow ;
+    opacity: 0.3; */
+   }
