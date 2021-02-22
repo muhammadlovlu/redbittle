@@ -12,6 +12,7 @@ body{
     background-size: cover ;    
     background-attachment: fixed;
 }
+
 .nav-item a{
     color: white !important;
     font-family: 'Oswald', sans-serif;
@@ -27,14 +28,55 @@ body{
     font-family: 'Teko', sans-serif;
     color:white;
 }
+
+.highlight h2 {
+    text-transform: capitalize;
+    background-color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+    text-align:center;
+    color: white;
+}
+
+.highlight p{
+    font-family: 'Bebas Neue', cursive;;
+    text-align: center;
+    background-color:blueviolet;
+    font-size: 18px;
+    color: white;
+
+}
+
 #btn-size{
     color: whitesmoke;
-    font-size: 20px;
+    font-size: 17px;
+    padding: 35px;
 
 }
 
 
 
+/* media Query */
+
+@media only screen and (min-width: 992px) {
+    #main {
+        position: relative;
+        top :120px;
+    }
+    .highlight h2 {
+        text-transform: capitalize;
+        background-color: black;
+        font-family: 'Oswald', sans-serif;
+        font-size: 70px;
+        text-align:center;
+        color: white;
+    }
+    }
+
+   
+   
+
+    
 
 
 /*   Text code here */
