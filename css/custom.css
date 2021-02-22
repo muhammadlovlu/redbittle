@@ -42,7 +42,7 @@ h5{
     color: white;
     letter-spacing: 1px;
 }
-.feature {
+.features {
     border-radius: 20px !important; 
 }
 .card-body{
@@ -90,6 +90,12 @@ h5{
     color: black;
     letter-spacing: 1px;
   }
+  .no-shadow{
+    padding:5px;
+    height: 300px;
+    box-shadow: none;
+
+  }
 #main {
     position: relative;
     top :20px;
@@ -118,7 +124,7 @@ h5{
         color: white;
     }
     
-.card{
+.features{
     position: relative;
     top: -100px;
    
