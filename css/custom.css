@@ -10,7 +10,7 @@ body{
     background-image: url("/images/bg.jpg");
     background-repeat: no-repeat;
     background-size: cover ;    
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 .nav-item a{
     color: white !important;
@@ -27,7 +27,11 @@ body{
     font-family: 'Teko', sans-serif;
     color:white;
 }
+#btn-size{
+    color: whitesmoke;
+    font-size: 20px;
 
+}
 
 
 
@@ -37,14 +41,5 @@ body{
 .highlight{
     background-color:tomato ;
 }
-button {
-    color: white;
-}
 
-#startNow{
-    color: whitesmoke;
-    font-size: 50px;
-}
-#btnSection{
-    font-size: 50px;
-}
+
