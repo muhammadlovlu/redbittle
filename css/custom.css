@@ -61,6 +61,8 @@ h1, h2, div{
 
 .card-text{
     padding: 10px;
+    font-family: 'RocknRoll One', sans-serif;
+    
 }
 .card-text:before {
     content: " ";
