@@ -11,6 +11,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover ;    
     background-attachment: fixed;
+    
 }
 
 .nav-item a{
@@ -46,7 +47,10 @@ body{
     color: white;
 
 }
-
+#main {
+    position: relative;
+    top :20px;
+}
 #btn-size{
     color: whitesmoke;
     font-size: 17px;
@@ -67,7 +71,7 @@ body{
         text-transform: capitalize;
         background-color: black;
         font-family: 'Oswald', sans-serif;
-        font-size: 70px;
+        font-size: 60px;
         text-align:center;
         color: white;
     }
