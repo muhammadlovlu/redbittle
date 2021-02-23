@@ -2,161 +2,179 @@
     margin: 0;
     padding: 0;
 }
-h1, h2, div{
+
+h1, h2, div {
     margin: 0;
     padding: 0;
 }
-h5{
+
+h5 {
     font-family: 'Oswald', sans-serif;
-    letter-spacing: 1px; 
+    letter-spacing: 1px;
 }
-.tiledBackground{
+
+.tiledBackground {
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
-    background-size: cover ;    
+    background-size: cover;
     background-attachment: fixed;
-    height: 850px;  
+    height: 850px;
 }
-.nav-item a{
+
+.nav-item a {
     color: white !important;
     font-family: 'Oswald', sans-serif;
     font-size: 18px;
     letter-spacing: 1.5px;
 }
+
 .brand {
     font-family: 'Teko', sans-serif;
-    color:white;
+    color: white;
     letter-spacing: 1px;
 }
+
 .highlight h2 {
     text-transform: capitalize;
     font-family: 'Oswald', sans-serif;
     font-size: 40px;
-    text-align:center;
+    text-align: center;
     color: white;
 }
-.highlight p{
+
+.highlight p {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 18px;
     color: white;
     letter-spacing: 1px;
 }
+
 .features {
-    border-radius: 20px !important; 
+    border-radius: 20px !important;
 }
-.card-body{
-    padding:5px;
+
+.card-body {
+    padding: 5px;
     height: 300px;
     box-shadow: 10px 10px 10px -3px black;
     border-radius: 20px;
 }
-.card-body span{
+
+.card-body span {
     padding: 20px;
     font-size: 50px;
 }
+
 .card-title {
     padding: 10px;
     font-family: 'Oswald', sans-serif;
 }
-.card-text{
+
+.card-text {
     padding: 10px;
     font-family: 'RocknRoll One', sans-serif;
 }
+
 .card-text::after {
-    content:"";
+    content: "";
     background: black;
     position: absolute;
-    top:140px;
+    top: 140px;
     right: 0;
     left: 25px;
     height: 3px;
-    width: 30%; 
-  }
-  .service h2{
+    width: 30%;
+}
+
+.service h2 {
     text-transform: capitalize;
     font-family: 'Oswald', sans-serif;
     font-size: 60px;
-    text-align:center;
+    text-align: center;
     letter-spacing: 2px;
     color: black;
-  }
-  .service p{
+}
+
+.service p {
     font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 18px;
     color: black;
     letter-spacing: 1px;
-  }
-  .no-shadow{
-    padding:5px;
+}
+
+.no-shadow {
+    padding: 5px;
     height: 300px;
     box-shadow: none;
-  }
-  .no-dash {
-        padding: 10px;
-        font-family: 'RocknRoll One', sans-serif;
-  }
-  .details {
-      background-color: tomato;
-      
-  }
-  .details h2 {
+}
+
+.no-dash {
+    padding: 10px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+
+.details {
+    background-color: tomato;
+}
+
+.details h2 {
     text-transform: capitalize;
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     color: white;
 }
-.details p{
-font-family:'Arial Narrow', Arial, sans-serif;
+
+.details p {
+    font-family: 'Arial Narrow', Arial, sans-serif;
     font-size: 18px;
     font-weight: lighter;
     color: white;
     letter-spacing: 1.5px;
 }
+
 #main {
     position: relative;
-    top :20px;
+    top: 20px;
 }
-#btn-size{
+
+#btn-size {
     font-family: 'teko';
     letter-spacing: 1.5px;
     color: whitesmoke;
-    padding:20px;
+    padding: 20px;
 }
-
-
 
 /* media Query */
 
 @media only screen and (min-width: 992px) {
     #main {
         position: relative;
-        top :120px;
+        top: 120px;
     }
     .highlight h2 {
         text-transform: capitalize;
         font-family: 'Oswald', sans-serif;
         font-size: 60px;
-        text-align:center;
+        text-align: center;
         color: white;
-    } 
-.features{
-    position: relative;
-    top: -100px;
-}
-.details {
-      background-color: tomato;
-      position: relative;
-      top: 200px;
-  }
-.details h2 {
-    text-transform: capitalize;
-    font-family: 'Oswald', sans-serif;
-    font-size: 50px;
-    color: white;
-}
     }
+    .features {
+        position: relative;
+        top: -100px;
+    }
+    .details {
+        background-color: tomato;
+        position: relative;
+        top: 200px;
+    }
+    .details h2 {
+        text-transform: capitalize;
+        font-family: 'Oswald', sans-serif;
+        font-size: 50px;
+        color: white;
+    }
+}
 
 /*   Text code here */
-
