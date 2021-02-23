@@ -12,7 +12,6 @@ h5 {
     font-family: 'Oswald', sans-serif;
     letter-spacing: 1px;
 }
-
 .tiledBackground {
     background-image: url("../images/background.jpg");
     background-repeat: no-repeat;
@@ -27,7 +26,6 @@ h5 {
     font-size: 18px;
     letter-spacing: 1.5px;
 }
-
 .brand {
     font-family: 'Teko', sans-serif;
     color: white;
