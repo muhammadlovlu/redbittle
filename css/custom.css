@@ -124,6 +124,7 @@ h5 {
     font-family: 'Oswald', sans-serif;
     font-size: 30px;
     color: white;
+    background-color: tomato;
 }
 
 .details p {
@@ -132,6 +133,7 @@ h5 {
     font-weight: lighter;
     color: white;
     letter-spacing: 1.5px;
+    background-color: tomato;
 }
 
 #main {
