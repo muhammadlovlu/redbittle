@@ -148,6 +148,16 @@ h5 {
     padding: 20px;
 }
 
+#details h2 {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+#details p {
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
 /* media Query */
 
 @media only screen and (min-width: 992px) {
